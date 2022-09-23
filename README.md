@@ -85,3 +85,12 @@ app.listen(PORT,(req,res) => {
 </div>
 
 ```
+
+## Packeges
+
+* Expres js
+* Nodemon
+* colors
+* dotenv
+* multer
+* nodemailer
