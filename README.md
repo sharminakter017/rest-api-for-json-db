@@ -1,4 +1,4 @@
-<img src = "./public/fiverr imgg.png">
+
 
 # React App Project 
 
