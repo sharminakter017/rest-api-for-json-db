@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const colors = require('colors');
+const userRoute = require('./routes/users')
 
 
 //express init
@@ -16,6 +17,10 @@ app.use('/public',express.static('public'));
 //data manage
 app.use(express.json())
 app.use(express.urlencoded({extended : false}));
+
+//api routes
+app.use('/api/v1/user', userRoute)
+
 
 
 //listen server
